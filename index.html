@@ -10,13 +10,47 @@
         .serif-heading {
             font-family: Georgia, "Noto Serif TC", "Songti TC", serif;
         }
+
+        @media (min-width: 576px) {
+            .serif-heading {
+                color: #8b4513;
+            }
+        }
+
+        @media (min-width: 768px) {
+            .serif-heading {
+                font-size: 2rem;
+            }
+        }
+
+        @media (min-width: 1024px) {
+            .serif-heading {
+                font-size: 2.5rem;
+            }
+        }
     </style>
 </head>
-
 <body>
     <main class="container py-4">
         <h1 class="serif-heading fw-bold">文藻小書店</h1>
         <h3 class="serif-heading fs-5">Hello, Bonjour, Hola! 歡迎來到文藻小書店。走進這裡，用文字遇見更大的世界。今天想在哪種語言或故事裡駐足呢？</h3>
+
+        <div class="container px-0 my-4">
+            <div class="row g-3">
+                <div class="col-12 col-md-4">
+                    <h4>中文書籍</h4>
+                    <p>探索經典文學、散文與小說。</p>
+                </div>
+                <div class="col-12 col-md-4">
+                    <h4>外語書籍</h4>
+                    <p>閱讀英文、法文、西班牙文等語言書籍。</p>
+                </div>
+                <div class="col-12 col-md-4">
+                    <h4>本週推薦</h4>
+                    <p>精選適合午後閱讀的好書。</p>
+                </div>
+            </div>
+        </div>
 
 
         <div id="bookCarousel" class="carousel slide" data-bs-ride="carousel">
@@ -46,6 +80,7 @@
                 <span class="visually-hidden">下一張</span>
             </button>
         </div>
+
         <section class="mt-4" aria-labelledby="photoQuestionsTitle">
             <h2 id="photoQuestionsTitle" class="mb-3">照片背後的故事</h2>
             <div class="accordion accordion-flush" id="accordionFlushExample">
