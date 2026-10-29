@@ -35,7 +35,7 @@
         <h1 class="serif-heading fw-bold">文藻小書店</h1>
         <h3 class="serif-heading fs-5">Hello, Bonjour, Hola! 歡迎來到文藻小書店。走進這裡，用文字遇見更大的世界。今天想在哪種語言或故事裡駐足呢？</h3>
 
-        <div class="container px-0 my-4">
+        <section class="my-4" aria-label="書籍分類">
             <div class="row g-3">
                 <div class="col-12 col-md-4">
                     <div class="card h-100">
@@ -62,7 +62,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
 
 
         <div id="bookCarousel" class="carousel slide" data-bs-ride="carousel">
@@ -92,6 +92,62 @@
                 <span class="visually-hidden">下一張</span>
             </button>
         </div>
+
+        <section class="my-5" aria-label="本月推薦書籍">
+            <div class="row g-4 align-items-center">
+                <div class="col-12 col-md-6">
+                    <img src="https://picsum.photos/id/24/900/500" class="img-fluid rounded"
+                        alt="書店推薦書籍">
+                </div>
+
+                <div class="col-12 col-md-6">
+                    <h2>本月推薦書籍</h2>
+                    <p>在安靜的午後，挑選一本喜歡的書，讓文字帶你走進不同的世界。</p>
+                    <a href="#photoQuestionsTitle" class="btn btn-primary">了解更多</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="my-5" aria-labelledby="exploreBooksTitle">
+            <div class="row text-center mb-4">
+                <div class="col">
+                    <h2 id="exploreBooksTitle">探索書籍世界</h2>
+                    <p>依照你的興趣，找到下一本值得閱讀的好書。</p>
+                </div>
+            </div>
+
+            <div class="row g-4">
+                <div class="col-12 col-md-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h3 class="card-title h5">文學小說</h3>
+                            <p class="card-text">沉浸在精彩故事與細膩文字中。</p>
+                            <a href="#photoQuestionsTitle" class="btn btn-outline-primary">查看書籍</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h3 class="card-title h5">外語學習</h3>
+                            <p class="card-text">透過閱讀接觸不同語言與文化。</p>
+                            <a href="#photoQuestionsTitle" class="btn btn-outline-primary">查看書籍</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h3 class="card-title h5">本週精選</h3>
+                            <p class="card-text">發現本週最值得推薦的閱讀作品。</p>
+                            <a href="#photoQuestionsTitle" class="btn btn-outline-primary">查看書籍</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
         <section class="mt-4" aria-labelledby="photoQuestionsTitle">
             <h2 id="photoQuestionsTitle" class="mb-3">照片背後的故事</h2>
